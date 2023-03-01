@@ -1,0 +1,65 @@
+#contenidolibros
+{
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    flex-wrap:nowrap;
+}
+#datoslibros h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#contenidolibros>#puntitos
+{
+    width: 10%;
+}
+#contenidolibros>#datoslibros
+{
+    width: 60%;
+    border-right: #51415E solid 1px ;
+}
+#contenidolibros>#enlacesinteres
+{
+    width: 20%;
+    margin: 0px 10px 10px 20px;
+}
+#contenido-marcolibros{
+    display: flex;
+    flex-wrap:nowrap;
+}
+#contenido-marcolibros>#fotolibro{
+    width: 20%;
+}
+#contenido-marcolibros>#detallelibros{
+    width: 70%;
+}
+
+span a{
+    color: #0071BA;
+    font-weight: bold;
+    text-decoration: none;
+}
+span a:hover{
+    color: #EB1C24;
+    font-weight: bold;
+    text-decoration:underline;
+}
+span a:visited{
+    color: #EB1C24;
+    font-weight: bold;
+}
+.activo
+{
+    color: #555252;
+    opacity: 80%;
+}
+.subtitulo{
+    font-weight: bold;
+    color: black;
+}
+h3,abbr,article,p{
+    padding-bottom: 10px;
+    text-align: justify;
+}
+#enlacesinteres h2{
+    text-align: center;
+}
