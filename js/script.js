@@ -31,6 +31,7 @@ function cargarReproductor() {
 function mensaje ()
         {
             nombre= document.form1.txtnombre.value;
+            apellido=document.form1.txtapellido.value;
           
 
             if (nombre == false)
@@ -38,6 +39,21 @@ function mensaje ()
             window.alert("debe colocar un nombre")
           }
           else
-            window.alert("Formulario enviado, correctamente")
+          {
+            const guardarArchivoDeTexto = (contenido, nombre) => {
+              const a = document.createElement("a");
+              const archivo = new Blob([contenido], { type: 'text/plain' });
+              const url = URL.createObjectURL(archivo);
+              a.href = url;
+              a.download = nombre;
+              a.click();
+              URL.revokeObjectURL(url);
+          }
+          
+              guardarArchivoDeTexto(nombre +" "+ apellido, "archivo.txt");
+          
+          window.alert("Formulario enviado, correctamente")
+          }
+            
         }
 

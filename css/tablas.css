@@ -27,3 +27,22 @@
     h4{
         padding: 20px;
     }
+    #listacursos ul{
+        text-align: left;
+        
+    }
+    #listacursos h3{
+        text-align: center;
+        padding: 10px;
+        background-color: #51415E;
+        color: #ddd;
+        margin-top: 20px;
+    }
+    #mifoto img{
+        border: 2px solid #51415E;
+        border-radius: 10px;
+        position:absolute;
+        top: 250px;
+    right: 450px;
+    rotate: -20deg;
+    }
