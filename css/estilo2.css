@@ -6,10 +6,33 @@
 }
 #datoslibros h1{
     text-align: center;
-    padding-bottom: 30px;
+    color: aliceblue;
+    background-color:#51415E;
+    padding-bottom: 10px;
+    margin: 10px 20px ;
+    border-radius: 20px;
+    
+}
+#datosmusica h1{
+    text-align: center;
+    color: aliceblue;
+    background-color:#51415E;
+    padding: 10px;
+    margin: 10px 20px ;
+    font-size: 20px;
+    border-radius: 20px;
+    background-image: url("../img/music.png");
+    background-repeat: no-repeat;
+    background-size:38px;
+    
 }
 #contenidolibros>#puntitos
 {
+    width: 10%;
+}
+#contenidomusica >#puntitos
+{
+    padding: 20px;
     width: 10%;
 }
 #contenidolibros>#datoslibros
@@ -21,6 +44,11 @@
 {
     width: 20%;
     margin: 0px 10px 10px 20px;
+}
+#contenidomusica>#enlacesdeinteres
+{
+    width: 20%;
+    margin: 0px 10px, 10px, 20px;
 }
 #contenido-marcolibros{
     display: flex;
@@ -61,5 +89,59 @@ h3,abbr,article,p{
     text-align: justify;
 }
 #enlacesinteres h2{
+    text-align: center;
+}
+#marcolibros{
+    border-bottom: 1px dashed #555252;
+    padding: 20px 0px 10px 0px;
+    margin-right: 20px;
+   
+}
+#detallelibros
+{
+    margin-left: 20px;
+}
+#enlacesinteres
+{
+    border: 1px solid #555252;
+}
+#enlacesinteres h2
+{
+    background-color:#51415E ;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 10px;
+}
+#enlacelink
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: #51415E dashed 1px;
+}
+#contenidomusica
+{
+    display: flex;
+    flex-wrap:nowrap;
+}
+#contenidomusica>#datosmusica{
+    width: 35%;
+    
+}
+#contenidomusica>#listarepro{
+    margin-top: 100px;
+
+    width: 30%;
+}
+#selectTrack
+{
+    width: 300px;
+    height: 150px;
+    border: 1px solid #51415E;
+    margin-top: 5px;;
+    
+}
+#listarepro
+{
     text-align: center;
 }
