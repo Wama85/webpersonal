@@ -28,3 +28,16 @@ function cargarReproductor() {
    padre = document.getElementById("reproductorBox")
    padre.appendChild(nuevo_audio)
 }
+function mensaje ()
+        {
+            nombre= document.form1.txtnombre.value;
+          
+
+            if (nombre == false)
+          {
+            window.alert("debe colocar un nombre")
+          }
+          else
+            window.alert("Formulario enviado, correctamente")
+        }
+

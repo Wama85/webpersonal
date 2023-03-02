@@ -13,6 +13,21 @@
     border-radius: 20px;
     
 }
+#contenidolibros>#galeria{
+    width: 70%;
+}
+#galeria h1{
+    text-align: center;
+    color: aliceblue;
+    background-color:#51415E;
+    padding: 10px;
+    margin: 10px 20px ;
+    border-radius: 20px;
+    
+}
+#contenidolibros>#galeria>#imagenesgaleria{
+    text-align: center;
+}
 #datosmusica h1{
     text-align: center;
     color: aliceblue;
@@ -144,4 +159,9 @@ h3,abbr,article,p{
 #listarepro
 {
     text-align: center;
+}
+#imagenesgaleria a:hover{
+    opacity: 80%;
+    max-width: 400px;
+    
 }
