@@ -220,3 +220,15 @@ footer {
     font-weight: bold;
     font-size: 18px;
 }
+#detallelibros h3{
+    background-color: #9ECCD8;
+    color: #663366;
+    border-radius: 0px 10px 10px 0px;
+    padding: 1px 0px 0px 10px;
+    margin-bottom: 5px;;
+}
+abbr{
+    
+    font-weight: bold;
+
+}
